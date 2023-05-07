@@ -13,6 +13,8 @@ The authors surveyed 43 SDEs through 9 workshops with the goal of uncovering exp
 > One effective method is scenario-based design (SBD) [87]. SBD suspends the needs to define
 system operations by using narrative descriptions of how a user uses a system to accomplish a task, allowing people to respond to concrete interactions. We chose to use SBD to explore GenAI for code use cases as most software engineers do not have experience with such technologies. SBD also allows us to explore XAI design without the constraint of current technical feasibility, as adopted by several prior XAI works [19, 102].
 
+![alex.png](alex.png)
+
 ### What are common use cases of GAI for code
 
 > [...] models have emerged that focus on specific domains such as software engineering, implementing use cases of auto-completing code [15, 39], translating code from one program-
