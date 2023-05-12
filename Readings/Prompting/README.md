@@ -1,5 +1,28 @@
 # Prompting
 
+## Interactive and Visual Prompt Engineering (2023)
+
+Strobelt, H., Webson, A., Sanh, V., Hoover, B., Beyer, J., Pfister, H., & Rush, A. M. (2023). Interactive and Visual Prompt Engineering for Ad-hoc Task Adaptation with Large Language Models. IEEE Transactions on Visualization and Computer Graphics, Visualization and Computer Graphics, IEEE Transactions on, IEEE Trans. Visual. Comput. Graphics, 29(1), 1146–1156. https://doi.org/10.1109/TVCG.2022.3209479. [PromptEngineering](PromptEngineering.pdf).
+
+> The promise of prompting is that it allows domain experts to solve new tasks with only natural language inputs. However, while there are prompts that can achieve high accuracy on specific tasks, there is a large
+amount of variance in the choice of the prompt template itself. Recent papers have described how task accuracy is dependent on specifics of prompt choices [27, 41, 45]. This leads to a brute-force procedure under which dozens of prompts are written, evaluated, and compared to find the best fit for a task. In this sense, prompting transfers similar burdens of curating expert labels to prompt construction.
+
+![promptide.png](promptide.png)
+
+### What are prompt templates
+
+The authors examine three queries types `Generation`, `Ranking`, and `Top-K`. In these scenarios the process entails providing the context, question, and response format.
+
+![query_types.png](query_types.png)
+
+The `context` should represent **mappings and known evidence**. For instance, you might specify that apples cost $1 and bananas cost $2 and cheese costs $3.50. These data points initialize the generation context and cause the neuro-symbolic resolver to incorporate these facts. `Questions` should define the goal and task definition. The `response format` is natural language statements that tell the LLM how to reduce the outputs.
+
+### What are the top use-cases for prompting
+
+- Document classification
+- Multi-choice answering
+- sentence similarity scoring
+
 ## Prompting LLM with Socratic Method (2023)
 
 Chang, E. Y. (2023). Prompting Large Language Models With the Socratic Method. 2023 IEEE 13th Annual Computing and Communication Workshop and Conference (CCWC), Computing and Communication Workshop and Conference (CCWC), 2023 IEEE 13th Annual, 0351–0360. https://doi.org/10.1109/CCWC57344.2023.10099179. [SocraticMethod](SocraticMethod.pdf).
@@ -39,9 +62,9 @@ The researchers were able to probe the neuro-symbolic mappings and refine the ou
 
 ![maieutics.png](maieutics.png)
 
-## Interactive and Visual Prompt Engineering (2023)
+## A Systematic Survey of Prompting Methods in NLP (2023)
 
-Strobelt, H., Webson, A., Sanh, V., Hoover, B., Beyer, J., Pfister, H., & Rush, A. M. (2023). Interactive and Visual Prompt Engineering for Ad-hoc Task Adaptation with Large Language Models. IEEE Transactions on Visualization and Computer Graphics, Visualization and Computer Graphics, IEEE Transactions on, IEEE Trans. Visual. Comput. Graphics, 29(1), 1146–1156. https://doi.org/10.1109/TVCG.2022.3209479. [PromptEngineering](PromptEngineering.pdf).
+PENGFEI LIU, WEIZHE YUAN, JINLAN FU, ZHENGBAO JIANG, HIROAKI HAYASHI, & NEUBIG, G. (2023). Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing. ACM Computing Surveys, 55(9), 1–35. https://doi.org/10.1145/3560815. [MethodSurvey.pdf](MethodSurvey.pdf).
 
 ## Prompt Programming (2021)
 
