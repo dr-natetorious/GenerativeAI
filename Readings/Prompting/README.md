@@ -23,6 +23,11 @@ The `context` should represent **mappings and known evidence**. For instance, yo
 - Multi-choice answering
 - sentence similarity scoring
 
+## A Systematic Survey of Prompting Methods in NLP (2023)
+
+PENGFEI LIU, WEIZHE YUAN, JINLAN FU, ZHENGBAO JIANG, HIROAKI HAYASHI, & NEUBIG, G. (2023). Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing. ACM Computing Surveys, 55(9), 1–35. https://doi.org/10.1145/3560815. [MethodSurvey.pdf](MethodSurvey.pdf).
+
+
 ## Prompting LLM with Socratic Method (2023)
 
 Chang, E. Y. (2023). Prompting Large Language Models With the Socratic Method. 2023 IEEE 13th Annual Computing and Communication Workshop and Conference (CCWC), Computing and Communication Workshop and Conference (CCWC), 2023 IEEE 13th Annual, 0351–0360. https://doi.org/10.1109/CCWC57344.2023.10099179. [SocraticMethod](SocraticMethod.pdf).
@@ -61,10 +66,6 @@ The authors formulate a series of prompts and follow up questions, which forces 
 The researchers were able to probe the neuro-symbolic mappings and refine the outputs more concretely. This allows **the chat session** to become more sophisticated due to related terms.
 
 ![maieutics.png](maieutics.png)
-
-## A Systematic Survey of Prompting Methods in NLP (2023)
-
-PENGFEI LIU, WEIZHE YUAN, JINLAN FU, ZHENGBAO JIANG, HIROAKI HAYASHI, & NEUBIG, G. (2023). Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing. ACM Computing Surveys, 55(9), 1–35. https://doi.org/10.1145/3560815. [MethodSurvey.pdf](MethodSurvey.pdf).
 
 ## Prompt Programming (2021)
 
