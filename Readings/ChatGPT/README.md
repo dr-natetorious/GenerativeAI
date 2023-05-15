@@ -28,8 +28,7 @@ One reason the model evolved quickly was `reinforcement learning with human feed
 
 OpenAI is secretative about GPT-4; but its based on `InstructGPT`. It leverages an in-context learning that models general tasks with a self-learning paradigm.
 
-> Since 2018, the pre-trained language models (PLM), which utilize  self-supervised  learning  over  raw  large-scale  texts, have received more and more attention [42]. And it promotes
-the birth and development of the two-stage learning paradigm of  pre-training  and fine-tuning.At present, there are three typical model structures of PLM, autoregressive  LM, autoencoding  LM,  and  hybrid  LM.
+> Since 2018, the pre-trained language models (PLM), which utilize  self-supervised  learning  over  raw  large-scale  texts, have received more and more attention [42]. And it promotes the birth and development of the two-stage learning paradigm of  pre-training  and fine-tuning.At present, there are three typical model structures of PLM, autoregressive  LM, autoencoding  LM,  and  hybrid  LM.
 
 ![arch.png](arch.png)
 

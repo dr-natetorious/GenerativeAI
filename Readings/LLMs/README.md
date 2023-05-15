@@ -13,3 +13,7 @@ Sobieszek, A., & Price, T. (2022). Playing Games with Ais: The Limits of GPT-3 a
 ## Unraveling the Technology behind GPT Models (2023)
 
 Roisenzvit, A. B. (2023). From Euclidean Distance to Spatial Classification: Unraveling the Technology behind GPT Models. Documentos de Trabajo, 853, 1–25. [TechBehindGPT](TechBehindGPT.pdf).
+
+## Attention is all you need (2017)
+
+Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin (2017). Attention is all you need. Advances in Neural Information Processing Systems, 30, 5998-6008. https://arxiv.org/abs/1706.03762. [AttentionAllNeed](AttentionAllNeed.pdf).
