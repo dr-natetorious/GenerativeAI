@@ -51,8 +51,7 @@ Some of the Socratic method’s key principles and guidelines to conduct critica
 • Clarifying key terms: The teacher helps the students clarify and define relevant terms and concepts to ensure everyone is on the same page.
 • Providing examples and evidence: The teacher or facilitator encourages the students to provide examples and evidence as reasons to support their claims.
 • Challenging reason-to-conclusion argument: The teacher or facilitator challenges the students’ arguments and encourages them to question their own beliefs and to consider alternative perspectives.
-• Summarizing and drawing conclusions: The teacher helps the students summarize and draw conclusions from the
-discussion.
+• Summarizing and drawing conclusions: The teacher helps the students summarize and draw conclusions from the discussion.
 • Reflecting on the process: The teacher and students reflect on the effectiveness of the method and what they learned through the dialogue
 
 ### How was this appraoch helpful
