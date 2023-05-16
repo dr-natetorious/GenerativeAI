@@ -30,9 +30,7 @@ PENGFEI LIU, WEIZHE YUAN, JINLAN FU, ZHENGBAO JIANG, HIROAKI HAYASHI, & NEUBIG, 
 
 Chang, E. Y. (2023). Prompting Large Language Models With the Socratic Method. 2023 IEEE 13th Annual Computing and Communication Workshop and Conference (CCWC), Computing and Communication Workshop and Conference (CCWC), 2023 IEEE 13th Annual, 0351–0360. https://doi.org/10.1109/CCWC57344.2023.10099179. [SocraticMethod](SocraticMethod.pdf).
 
-> Prompting is a technique used to guide the output generation of a pre-trained language model such as GPT-3 [2]. This is
-achieved by providing input in the form of a question or template, which helps to generate specific responses such as Q&A, document summarization, and translations. The advent of ChatGPT [11, 23, 41] has revolutionized the field of NLP by
-demonstrating the potential of using large pre-trained language models with prompting. Despite this progress, there is still room for improvement in current prompting strategies and techniques, especially for specific target applications.
+> Prompting is a technique used to guide the output generation of a pre-trained language model such as GPT-3 [2]. This is achieved by providing input in the form of a question or template, which helps to generate specific responses such as Q&A, document summarization, and translations. The advent of ChatGPT [11, 23, 41] has revolutionized the field of NLP by demonstrating the potential of using large pre-trained language models with prompting. Despite this progress, there is still room for improvement in current prompting strategies and techniques, especially for specific target applications.
 
 ### What is the Socratic Method
 
