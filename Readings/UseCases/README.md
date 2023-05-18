@@ -13,6 +13,10 @@ Generative Adversarial Network (GAN) architectures cross-train a generator and d
 Kothari, A. N. (2023). ChatGPT, Large Language Models, and Generative AI as Future Augments of Surgical Cancer Care. Annals of Surgical Oncology, 1–3. https://doi.org/10.1245/s10434-023-13442-2
 [Surgery.pdf](Surgery.pdf).
 
+> Despite the excitement and enthusiasm surrounding generative AI, effective use of these tools requires an understanding of their foundation models. To accomplish this, dedicated interdisciplinary groups are being formed to advance the science  of  foundation  models  through  evaluating  biases, identifying limitations, providing transparency, and forecasting misuse before deployment at scale.
+
+
+
 ## GPT for Cardiac Abnormality Detection (2021)
 
 Gaudilliere, P. L., Sigurthorsdottir, H., Aguet, C., Van Zaen, J., Lemay, M., & Delgado-Gonzalo, R. (2021). Generative Pre-Trained Transformer for Cardiac Abnormality Detection. 2021 Computing in Cardiology (CinC), Computing in Cardiology (CinC), 2021, 48, 1–4. https://doi.org/10.23919/CinC53138.2021.9662835. [CardiacAbnormalityDetection](CardiacAbnormalityDetection.pdf).
@@ -31,6 +35,19 @@ As per Gartner, Generative AI is expected to change, among other things, digital
 - "by 2025, 30 per cent of outbound messages from large organisations will be synthetically generated.
 - "by 2025, Generative AI will be used by 50 per cent of drug discovery and development initiatives.
 - "by 2027, 30 per cent of manufacturers will use Generative AI to enhance their product development effectiveness
+
+### What additional use cases will exist
+
+Some Use Cases of Generative AI:
+
+- Image Generation - creation of new, realistic images from a dataset of existing images and or text.
+- Image-to-image translation - conversion of one image into another, be it style transfer, sketch-to-image or image-to-sketch.
+- Image & Video resolution enhancement.
+- Audio/Video Generation - useful for voice overs, new music creation, gameplay, etc.
+- Text-to-speech - this is done using GANs, wherein the discriminator network functions as a trainer for modulation, intonation, etc.
+- Text Generation - useful for commercials, news headlines, dialogues, movie sub-titles.
+- Code Generation - useful in software development to produce code without manual intervention.
+- Generative AI applications can be beneficial in healthcare, media, education, engineering design. They also have application in the creative field for artists and musicians.
 
 ## LLM in Education (2023)
 
@@ -53,6 +70,12 @@ Instead, Cai et al. chose a transformer architecture with a Graph Convolution Ne
 ## Scheduling Construction Projects (2023)
 
 Prieto, S. A., Mengiste, E. T., & García de Soto, B. (2023). Investigating the Use of ChatGPT for the Scheduling of Construction Projects. Buildings (2075-5309), 13(4), 857. https://doi.org/10.3390/buildings13040857. [SchedulingConstruction](SchedulingConstruction.pdf).
+
+The researchers used ChatGPT to create construction project scheduling estimates. They found that it was reasonable in terms of structure but has some challenges. For instance, there's guardrails with ChatGPT that prevent it talking about money and pricing estimates. This made the responses generic and vague. 
+
+- The researchers call out the need for chatbots providing support on construction sites. 
+
+- Another use case is to integrate emailed change requests into scheduling tools like Microsoft Project. Their goal is to streamline the customer requesting an alteration and it automatically reflects in the bill of materials and employee scheduling. These capabilities are particularly useful for blue collar roles which lack the training and find administrative tasks tedious/undifferentiating.
 
 ## Genomic Metadata Integration (2022)
 
