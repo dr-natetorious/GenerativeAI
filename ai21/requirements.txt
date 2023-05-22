@@ -1,0 +1,6 @@
+requests
+virtualenv
+boto3
+setuptools
+constructs >=10.0.0
+aws-cdk-lib >=2.0.0

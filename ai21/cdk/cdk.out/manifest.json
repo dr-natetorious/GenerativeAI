@@ -1,0 +1,196 @@
+{
+  "version": "31.0.0",
+  "artifacts": {
+    "GenAIDemoStack.assets": {
+      "type": "cdk:asset-manifest",
+      "properties": {
+        "file": "GenAIDemoStack.assets.json",
+        "requiresBootstrapStackVersion": 6,
+        "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version"
+      }
+    },
+    "GenAIDemoStack": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "GenAIDemoStack.template.json",
+        "validateOnSynth": false,
+        "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-deploy-role-${AWS::AccountId}-${AWS::Region}",
+        "cloudFormationExecutionRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-cfn-exec-role-${AWS::AccountId}-${AWS::Region}",
+        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/87d4123c6133268e63db7a2bd1357ff379295560cb86f50886706a998d5e4d64.json",
+        "requiresBootstrapStackVersion": 6,
+        "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version",
+        "additionalDependencies": [
+          "GenAIDemoStack.assets"
+        ],
+        "lookupRole": {
+          "arn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-lookup-role-${AWS::AccountId}-${AWS::Region}",
+          "requiresBootstrapStackVersion": 8,
+          "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version"
+        }
+      },
+      "dependencies": [
+        "GenAIDemoStack.assets"
+      ],
+      "metadata": {
+        "/GenAIDemoStack/NetworkingConstruct/VPC/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "NetworkingConstructVPCA4C7AC4A"
+          }
+        ],
+        "/GenAIDemoStack/NetworkingConstruct/VPC/PublicSubnet1/Subnet": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "NetworkingConstructVPCPublicSubnet1SubnetFBEA7536"
+          }
+        ],
+        "/GenAIDemoStack/NetworkingConstruct/VPC/PublicSubnet1/RouteTable": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "NetworkingConstructVPCPublicSubnet1RouteTable602C8615"
+          }
+        ],
+        "/GenAIDemoStack/NetworkingConstruct/VPC/PublicSubnet1/RouteTableAssociation": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "NetworkingConstructVPCPublicSubnet1RouteTableAssociation4CE494A0"
+          }
+        ],
+        "/GenAIDemoStack/NetworkingConstruct/VPC/PublicSubnet1/DefaultRoute": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "NetworkingConstructVPCPublicSubnet1DefaultRoute62A660A2"
+          }
+        ],
+        "/GenAIDemoStack/NetworkingConstruct/VPC/PublicSubnet1/EIP": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "NetworkingConstructVPCPublicSubnet1EIPC8E683F3"
+          }
+        ],
+        "/GenAIDemoStack/NetworkingConstruct/VPC/PublicSubnet1/NATGateway": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "NetworkingConstructVPCPublicSubnet1NATGatewayB3665045"
+          }
+        ],
+        "/GenAIDemoStack/NetworkingConstruct/VPC/PublicSubnet2/Subnet": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "NetworkingConstructVPCPublicSubnet2SubnetDFAA4248"
+          }
+        ],
+        "/GenAIDemoStack/NetworkingConstruct/VPC/PublicSubnet2/RouteTable": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "NetworkingConstructVPCPublicSubnet2RouteTable2E1FAD28"
+          }
+        ],
+        "/GenAIDemoStack/NetworkingConstruct/VPC/PublicSubnet2/RouteTableAssociation": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "NetworkingConstructVPCPublicSubnet2RouteTableAssociationEFF0EDE7"
+          }
+        ],
+        "/GenAIDemoStack/NetworkingConstruct/VPC/PublicSubnet2/DefaultRoute": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "NetworkingConstructVPCPublicSubnet2DefaultRoute586BE19D"
+          }
+        ],
+        "/GenAIDemoStack/NetworkingConstruct/VPC/DefaultSubnet1/Subnet": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "NetworkingConstructVPCDefaultSubnet1Subnet0CBAAFDC"
+          }
+        ],
+        "/GenAIDemoStack/NetworkingConstruct/VPC/DefaultSubnet1/RouteTable": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "NetworkingConstructVPCDefaultSubnet1RouteTableD73E9AF5"
+          }
+        ],
+        "/GenAIDemoStack/NetworkingConstruct/VPC/DefaultSubnet1/RouteTableAssociation": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "NetworkingConstructVPCDefaultSubnet1RouteTableAssociationA93264F7"
+          }
+        ],
+        "/GenAIDemoStack/NetworkingConstruct/VPC/DefaultSubnet1/DefaultRoute": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "NetworkingConstructVPCDefaultSubnet1DefaultRouteECA74859"
+          }
+        ],
+        "/GenAIDemoStack/NetworkingConstruct/VPC/DefaultSubnet2/Subnet": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "NetworkingConstructVPCDefaultSubnet2Subnet1F321BED"
+          }
+        ],
+        "/GenAIDemoStack/NetworkingConstruct/VPC/DefaultSubnet2/RouteTable": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "NetworkingConstructVPCDefaultSubnet2RouteTable1ACCBD91"
+          }
+        ],
+        "/GenAIDemoStack/NetworkingConstruct/VPC/DefaultSubnet2/RouteTableAssociation": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "NetworkingConstructVPCDefaultSubnet2RouteTableAssociationC62C3CA0"
+          }
+        ],
+        "/GenAIDemoStack/NetworkingConstruct/VPC/DefaultSubnet2/DefaultRoute": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "NetworkingConstructVPCDefaultSubnet2DefaultRoute9F2F3611"
+          }
+        ],
+        "/GenAIDemoStack/NetworkingConstruct/VPC/IGW": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "NetworkingConstructVPCIGW7A061A0B"
+          }
+        ],
+        "/GenAIDemoStack/NetworkingConstruct/VPC/VPCGW": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "NetworkingConstructVPCVPCGWB433F034"
+          }
+        ],
+        "/GenAIDemoStack/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/GenAIDemoStack/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable"
+          }
+        ],
+        "/GenAIDemoStack/BootstrapVersion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "BootstrapVersion"
+          }
+        ],
+        "/GenAIDemoStack/CheckBootstrapVersion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CheckBootstrapVersion"
+          }
+        ]
+      },
+      "displayName": "GenAIDemoStack"
+    },
+    "Tree": {
+      "type": "cdk:tree",
+      "properties": {
+        "file": "tree.json"
+      }
+    }
+  }
+}
