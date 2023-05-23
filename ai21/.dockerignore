@@ -1,0 +1,4 @@
+cdk/**
+docker-deploy/**
+images/**
+.env/**
