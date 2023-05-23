@@ -8,6 +8,7 @@ from aws_cdk import (
   aws_secretsmanager as sm,
   aws_iam as iam,
   aws_kendra as kendra,
+  aws_lambda as lambda_,
   aws_lambda_event_sources as events,
   aws_ses as sqs,
   aws_iam as iam,
