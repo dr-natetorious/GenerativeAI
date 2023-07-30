@@ -47,3 +47,8 @@ This point reiterates that we must approach XAI from the end-user perspective, w
 ### How does GAI for code model the problem
 
 > The application of modern NLP techniques to programming language can be traced back to the naturalness hypothesis [4, 17, 37], that software is a form of human communication. This hypothesis opened the door for applying NLP techniques previously used on human natural languages to source code, and recent work in this space is summarized by Talamadupula [92] and Allamanis et al. [4]. [...] Models trained on massive code data sets are even able to handle multiple use cases at the same time, such as PLBART [3], CodeBERT [23], GraphCodeBERT [30].
+
+## Explainability in Graph Neural Networks (2023)
+
+Yuan, H., Yu, H., Gui, S., & Ji, S. (2023). Explainability in Graph Neural Networks: A Taxonomic Survey. IEEE Transactions on Pattern Analysis and Machine Intelligence, Pattern Analysis and Machine Intelligence, IEEE Transactions on, IEEE Trans. Pattern Anal. Mach. Intell, 45(5), 5782–5799. https://doi.org/10.1109/TPAMI.2022.3204236. [GNN](GNN.pdf).
+
